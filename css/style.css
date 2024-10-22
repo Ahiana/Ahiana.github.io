@@ -1,0 +1,77 @@
+body{
+    font-family: Helvetica,Arial;   /* Tipo de fuente */
+    color: #aa4e7c;                             /* Color de la fuente */
+    margin: 0 0;                                /* Márgenes vertical y horizontal*/
+}
+header{
+    background-color: #f5bad8;
+    margin: 0 0;
+    padding: 1em 1em;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #df87b3;
+    font-size: 1.2em;
+}
+#curso{                                         /* texto con el nombre de la asignatura*/
+    display:inline-block;
+    text-align: left;
+    font-family: 'Audiowide', cursive;
+    font-size: 2em;
+    margin-left: 10px;
+}
+header a{                                       /* Enlaces del encabezado */
+    text-decoration: none;
+    color:#df87b3;
+}
+header a:hover{                                 /* Enlaces del encabezado al pone el puntero encima del enlace */
+    color:#c96497;
+}
+nav{
+    float: right;                               /* Desplaza la barra de navegación a la derecha de la pantalla */
+    display:inline-block;                      /* Muestra la lista de la lista en la misma línea */
+    text-align: right;                         /* Alinea el texto a la derecha de la caja (ver modelo caja)*/
+}
+nav li{
+    display: inline-block;
+    margin-left: 30px;
+}
+nav li.selected{                      /* Permite mostrar una línea debajo del enlace que coincide con la página mostrada. Ayuda a la navegación */
+    padding-bottom: 10px;
+    border-bottom:4px solid ;
+}
+footer{
+    background: #f5bad8;
+    padding: 1em 1em;
+    display: block;
+    text-align: center;
+   
+text-decoration: none;
+    color: #df87b3;
+    font-size: 1.2em;
+}
+footer a{                           /* Enlaces */
+    text-decoration: none;
+ 
+  color:#df87b3;
+}
+footer a:hover{                     /* Enlaces: al poner puntero encima */
+    color:#c96497;
+}
+footer ul{              
+           /* Lista no ordenada */
+    list-style-type: none;
+}
+footer li{                          /* Elementos de la lista */
+ 
+  display: inline-block;
+    margin: 0 20px;
+}
+footer p{                           /* Párrafo en el pie de página */
+    text-align: center;
+ 
+  margin: 0;
+    color: #df87b3;
+    font-size: 0.6em;
+    font-weight: 400;
+}
